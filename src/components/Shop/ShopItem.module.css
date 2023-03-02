@@ -12,7 +12,8 @@
 
 .container progress {
   width: 30vw;
-  height: 20px;
+  max-width: 200px;
+  height: 25px;
 }
 
 .containerDescription {

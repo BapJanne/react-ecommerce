@@ -28,14 +28,14 @@ const ShopItem: React.FC<{ item: Item }> = (props) => {
 
   return (
     <li className={classes.container}>
-      <div className={classes.itemImg}>
+      <Link to={"/item"} state={props.item} className={classes.itemImg}>
         <img
           style={{ display: isLoaded ? "block" : "none" }}
           src={props.item.image}
           alt={props.item.title}
           onLoad={onLoadImgHandler}
         />
-      </div>
+      </Link>
       <div className={classes.containerDescription}>
         <Link className={classes.itemLink} to="/item" state={props.item}>
           {props.item.title}

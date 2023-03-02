@@ -7,7 +7,9 @@
 }
 
 .homeDescription {
-  background-color: brown;
+  font-size: 20px;
+  width: 95vw;
+  max-width: 1000px;
   margin: 20px;
   padding: 10px;
   border-radius: 15px;

@@ -7,10 +7,8 @@ const Home = () => {
   return (
     <section className={classes.home}>
       <p className={classes.homeDescription}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odit,
-        quo modi officia labore numquam impedit error, accusamus eaque
-        accusantium cum. Nulla amet facilis eaque inventore voluptas et optio
-        reprehenderit!
+        Bienvenue ! Vous êtes actuellement sur un site créé dans le but de
+        développer mes compétences avec React, Typescript et Redux
       </p>
       <Link to="/shop" className={classes.link}>
         <Button>Go to the shop</Button>

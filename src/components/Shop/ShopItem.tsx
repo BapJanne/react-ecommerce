@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { Item } from "../../models/item";
@@ -6,6 +6,7 @@ import { cartActions } from "../../store/cart-slice";
 import classes from "./ShopItem.module.css";
 
 const ShopItem: React.FC<{ item: Item }> = (props) => {
+  const [isLoaded, setIsLoaded] = useState(false);
   const dispatch = useDispatch();
 
   const addToCartHandler = () => {
@@ -21,10 +22,19 @@ const ShopItem: React.FC<{ item: Item }> = (props) => {
     );
   };
 
+  const onLoadImgHandler = () => {
+    setIsLoaded(true);
+  };
+
   return (
     <li className={classes.container}>
       <div className={classes.itemImg}>
-        <img src={props.item.image} alt={props.item.title} />
+        <img
+          style={{ display: isLoaded ? "block" : "none" }}
+          src={props.item.image}
+          alt={props.item.title}
+          onLoad={onLoadImgHandler}
+        />
       </div>
       <div className={classes.containerDescription}>
         <Link className={classes.itemLink} to="/item" state={props.item}>

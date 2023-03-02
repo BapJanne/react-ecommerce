@@ -1,0 +1,14 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 120px;
+}
+
+.homeDescription {
+  background-color: brown;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
+}

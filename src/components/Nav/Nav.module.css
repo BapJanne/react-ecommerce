@@ -1,0 +1,44 @@
+.navContainer {
+  display: flex;
+  align-items: center;
+  background-color: brown;
+  color: white;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.navChild {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  width: 95vw;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 10px;
+}
+
+.navLink {
+  text-decoration: none;
+  border: none;
+  margin-right: 20px;
+  color: white;
+  font-size: 25px;
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}

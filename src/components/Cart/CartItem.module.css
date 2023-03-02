@@ -1,0 +1,40 @@
+.cartItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 700px;
+}
+
+.cartItem p {
+  margin: 10px 0;
+}
+
+.cartItem h3 {
+  margin: 5px 0;
+}
+
+.cartItem img {
+  width: 7rem;
+  margin-right: 20px;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: orange;
+  border: none;
+}
+
+.itemQuantity {
+  font-size: 25px;
+  padding: 0 15px;
+}
+
+.formItemContainer {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,54 @@
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px auto 0px auto;
+  max-width: 1000px;
+}
+
+.container img {
+  width: 50vw;
+  max-width: 400px;
+}
+
+.ratings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: clamp(16px, 2rem, 20px);
+}
+
+.ratings progress {
+  width: 8rem;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.ratings p {
+  margin: 0;
+}
+
+.description {
+  font-size: clamp(16px, 2rem, 20px);
+}
+
+.price {
+  font-size: clamp(20px, 2.5rem, 30px);
+  font-weight: 500;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: clamp(16px, 1.5rem, 30px);
+}
+
+.button {
+  background-color: orange;
+  border: none;
+  padding: 15px 30px;
+  font-size: clamp(16px, 1.5rem, 30px);
+  border-radius: 25px;
+}

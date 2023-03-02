@@ -1,0 +1,23 @@
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 100px auto;
+  max-width: 1000px;
+}
+
+.cartList {
+  padding: 0;
+  list-style: none;
+}
+
+.totalContainer {
+  font-size: 20px;
+}
+
+.totalAmount {
+  font-size: 25px;
+  font-weight: 600;
+}

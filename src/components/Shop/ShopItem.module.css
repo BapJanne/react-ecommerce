@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.container progress {
+  width: 30vw;
+  height: 20px;
+}
+
+.containerDescription {
+  margin-left: 20px;
+}
+
+.itemLink {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.ratings {
+  display: flex;
+  align-items: center;
+}
+
+.ratings p {
+  margin-right: 15px;
+}
+
+.itemImg img {
+  width: 30vw;
+  max-width: 200px;
+}
+
+.price {
+  font-size: 25px;
+  margin: 0 0 10px 0;
+}
+
+.buttonAdd {
+  border: none;
+  background-color: orange;
+  padding: 5px 25px;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .itemLink {
+    font-size: 25px;
+  }
+}
